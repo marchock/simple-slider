@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>RESPONSIVE SLIDER</title>
+	</head>
+
+	<link rel="stylesheet" type="text/css" href="http://necolas.github.io/normalize.css/3.0.1/normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	
+	<body>
+
+
+		<div class="block"></div>
+		<div class="block b2">
+
+
+			
+			<div id="slider" class="slider">
+				<div class="slider-bar"></div>
+				<div class="drag-area"></div>
+				<div class="slider-button"></div>
+			</div>
+
+
+			
+		</div>
+
+
+
+
+
+		<h3 class="number">0</h3>
+
+
+		<!-- JAVASCRIPT  -->
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="jquery.slider.js"></script>
+
+		<script type="text/javascript">
+
+
+			$( document ).ready(function() {
+
+				$(".slider").slider({
+    				propertyName: ""
+				});
+
+			});
+
+		</script>
+
+
+
+	</body>
+</html>
